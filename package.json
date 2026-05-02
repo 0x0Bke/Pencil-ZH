@@ -1,0 +1,45 @@
+{
+  "name": "pencil-zh-patch",
+  "displayName": "Pencil 中文补丁管理器",
+  "description": "手动为 Pencil VS Code 扩展的 editor bundle 应用中文汉化补丁。",
+  "version": "0.1.0",
+  "publisher": "local",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:pencilZhPatch.apply",
+    "onCommand:pencilZhPatch.restore",
+    "onCommand:pencilZhPatch.status"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "pencilZhPatch.apply",
+        "title": "Pencil 中文汉化：应用汉化"
+      },
+      {
+        "command": "pencilZhPatch.restore",
+        "title": "Pencil 中文汉化：恢复原版"
+      },
+      {
+        "command": "pencilZhPatch.status",
+        "title": "Pencil 中文汉化：检查状态"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node test/patcher.test.js",
+    "check": "node --check extension.js && node --check lib/patcher.js && node --check scripts/refresh-hash.js && node test/patch-file.test.js",
+    "refresh-hash": "node scripts/refresh-hash.js",
+    "refresh-hash:check": "node scripts/refresh-hash.js --check",
+    "scan-term": "node scripts/scan-term.js"
+  },
+  "devDependencies": {}
+}
