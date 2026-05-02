@@ -1,6 +1,6 @@
-# Pencil 中文补丁管理器
+# Pencil-ZH
 
-这是一个独立 VSCode 扩展，用来手动为 Pencil 扩展的 editor bundle 应用中文汉化补丁。
+Pencil-ZH 是一款专为 VSCode 扩展 Pencil 打造的中文翻译插件，一键将 Pencil 工具相关界面、功能提示汉化，适配各类设计场景，操作简洁，助力快速上手使用。
 
 v1 只支持：
 
