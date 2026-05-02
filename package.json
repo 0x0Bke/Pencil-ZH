@@ -1,0 +1,40 @@
+{
+  "name": "pencil-zh-patch",
+  "displayName": "Pencil 中文插件",
+  "description": "Pencil-ZH 是一款专为 VSCode 扩展 Pencil 打造的中文翻译插件，一键将 Pencil 工具相关界面、功能提示汉化，适配各类设计场景，操作简洁，助力快速上手使用。",
+  "version": "0.1.0",
+  "publisher": "local",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:pencilZhPatch.apply",
+    "onCommand:pencilZhPatch.restore"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "pencilZhPatch.apply",
+        "title": "Pencil 中文汉化：应用汉化"
+      },
+      {
+        "command": "pencilZhPatch.restore",
+        "title": "Pencil 中文汉化：恢复原版"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node test/patcher.test.js",
+    "check": "node --check extension.js && node --check lib/patcher.js && node --check scripts/prepare-patch.js && node test/patch-file.test.js",
+    "prepare-patch": "node scripts/prepare-patch.js",
+    "prepare-patch:check": "node scripts/prepare-patch.js --check",
+    "scan-term": "node scripts/scan-term.js"
+  },
+  "devDependencies": {}
+}

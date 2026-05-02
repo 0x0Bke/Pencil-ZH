@@ -1,0 +1,1547 @@
+{
+  "domReplacements": [
+    {
+      "from": "Context",
+      "to": "上下文"
+    },
+    {
+      "from": "Export",
+      "to": "导出"
+    },
+    {
+      "from": "Theme",
+      "to": "主题"
+    },
+    {
+      "from": "Name",
+      "to": "名称"
+    },
+    {
+      "from": "Duplicate",
+      "to": "复制"
+    },
+    {
+      "from": "Rename",
+      "to": "重命名"
+    },
+    {
+      "from": "Delete",
+      "to": "删除"
+    },
+    {
+      "from": "Stretch",
+      "to": "拉伸"
+    },
+    {
+      "from": "Fit",
+      "to": "适应"
+    },
+    {
+      "from": "Color",
+      "to": "颜色"
+    },
+    {
+      "from": "Number",
+      "to": "数值"
+    },
+    {
+      "from": "String",
+      "to": "字符串"
+    },
+    {
+      "from": "Grid",
+      "to": "网格"
+    },
+    {
+      "from": "Colors",
+      "to": "颜色库"
+    },
+    {
+      "from": "Mirroring",
+      "to": "镜像"
+    },
+    {
+      "from": "Outline",
+      "to": "轮廓"
+    },
+    {
+      "from": "Off",
+      "to": "关闭"
+    },
+    {
+      "from": "On",
+      "to": "开启"
+    },
+    {
+      "from": "Blur",
+      "to": "模糊"
+    },
+    {
+      "from": "Email",
+      "to": "电子邮件"
+    },
+    {
+      "from": "Offset",
+      "to": "偏移"
+    },
+    {
+      "from": "Inside",
+      "to": "内侧"
+    },
+    {
+      "from": "Outside",
+      "to": "外侧"
+    },
+    {
+      "from": "Present",
+      "to": "演示"
+    },
+    {
+      "from": "Padding",
+      "to": "内边距"
+    },
+    {
+      "from": "General",
+      "to": "常规"
+    },
+    {
+      "from": "Account",
+      "to": "账号"
+    },
+    {
+      "from": "Layout",
+      "to": "布局"
+    },
+    {
+      "from": "Dimensions",
+      "to": "尺寸"
+    },
+    {
+      "from": "Appearance",
+      "to": "外观"
+    },
+    {
+      "from": "Fill",
+      "to": "填充"
+    },
+    {
+      "from": "Stroke",
+      "to": "描边"
+    },
+    {
+      "from": "Effects",
+      "to": "效果"
+    },
+    {
+      "from": "Stops",
+      "to": "色标"
+    },
+    {
+      "from": "Radial",
+      "to": "径向"
+    },
+    {
+      "from": "Linear",
+      "to": "线性"
+    },
+    {
+      "from": "Angular",
+      "to": "角向"
+    },
+    {
+      "from": "Mesh",
+      "to": "网格"
+    },
+    {
+      "from": "Center",
+      "to": "居中"
+    },
+    {
+      "from": "Size",
+      "to": "大小"
+    },
+    {
+      "from": "Rotation",
+      "to": "旋转"
+    },
+    {
+      "from": "Frame",
+      "to": "画框"
+    },
+    {
+      "from": "Text",
+      "to": "文本"
+    },
+    {
+      "from": "Position",
+      "to": "位置"
+    },
+    {
+      "from": "Settings",
+      "to": "设置"
+    },
+    {
+      "from": "Layers",
+      "to": "图层"
+    },
+    {
+      "from": "Style",
+      "to": "样式"
+    },
+    {
+      "from": "Slides",
+      "to": "幻灯片"
+    },
+    {
+      "from": "Components",
+      "to": "组件"
+    },
+    {
+      "from": "Variables",
+      "to": "变量"
+    },
+    {
+      "from": "Libraries",
+      "to": "库"
+    },
+    {
+      "from": "Hand",
+      "to": "平移画布"
+    },
+    {
+      "from": "Rectangle",
+      "to": "矩形"
+    },
+    {
+      "from": "Move",
+      "to": "移动"
+    },
+    {
+      "from": "Sidebar",
+      "to": "侧边栏"
+    },
+    {
+      "from": "Freeform",
+      "to": "自由布局"
+    },
+    {
+      "from": "Ellipse",
+      "to": "椭圆"
+    },
+    {
+      "from": "Polygon",
+      "to": "多边形"
+    },
+    {
+      "from": "Icon",
+      "to": "图标"
+    },
+    {
+      "from": "Script",
+      "to": "脚本"
+    },
+    {
+      "from": "Pen",
+      "to": "钢笔"
+    },
+    {
+      "from": "Vertical",
+      "to": "垂直"
+    },
+    {
+      "from": "Horizontal",
+      "to": "水平"
+    },
+    {
+      "from": "Alignment",
+      "to": "对齐"
+    },
+    {
+      "from": "Selection",
+      "to": "选择"
+    },
+    {
+      "from": "Zoom",
+      "to": "缩放"
+    },
+    {
+      "from": "Gap",
+      "to": "间距"
+    },
+    {
+      "from": "Ungroup",
+      "to": "取消编组"
+    },
+    {
+      "from": "Undo",
+      "to": "撤销"
+    },
+    {
+      "from": "Redo",
+      "to": "重做"
+    },
+    {
+      "from": "Tools",
+      "to": "工具"
+    },
+    {
+      "from": "Editing",
+      "to": "编辑"
+    },
+    {
+      "from": "Press",
+      "to": "按下”"
+    }
+  ],
+  "files": [
+    {
+      "relativePath": "editor/assets/index.js",
+      "replacements": [
+        {
+          "from": "Export selected slides",
+          "to": "导出所选幻灯片"
+        },
+        {
+          "from": "Toggle AI chat",
+          "to": "切换 AI 对话框"
+        },
+        {
+          "from": "New chat tab",
+          "to": "新建对话标签页"
+        },
+        {
+          "from": "Move to next chat tab",
+          "to": "切换至下一个对话标签页"
+        },
+        {
+          "from": "Move to previous chat tab",
+          "to": "切换至上一个对话标签页"
+        },
+        {
+          "from": "Prompt history",
+          "to": "提示词历史"
+        },
+        {
+          "from": "Move tool",
+          "to": "移动工具"
+        },
+        {
+          "from": "Hand tool",
+          "to": "手形工具"
+        },
+        {
+          "from": "Rectangle tool",
+          "to": "矩形工具"
+        },
+        {
+          "from": "Ellipse tool",
+          "to": "椭圆工具"
+        },
+        {
+          "from": "Text tool",
+          "to": "文本工具"
+        },
+        {
+          "from": "Sticky note tool",
+          "to": "便签工具"
+        },
+        {
+          "from": "Copy selection to clipboard",
+          "to": "复制所选内容至剪贴板"
+        },
+        {
+          "from": "Paste clipboard content",
+          "to": "粘贴剪贴板内容"
+        },
+        {
+          "from": "Duplicate selection",
+          "to": "复制所选内容"
+        },
+        {
+          "from": "Cut selection",
+          "to": "剪切所选内容"
+        },
+        {
+          "from": "Delete selection",
+          "to": "删除所选内容"
+        },
+        {
+          "from": "Select all",
+          "to": "全选"
+        },
+        {
+          "from": "Select parent",
+          "to": "选择父级"
+        },
+        {
+          "from": "Select children",
+          "to": "选择子级"
+        },
+        {
+          "from": "Zoom in",
+          "to": "放大"
+        },
+        {
+          "from": "Zoom out",
+          "to": "缩小"
+        },
+        {
+          "from": "Zoom to 100%",
+          "to": "缩放至 100%"
+        },
+        {
+          "from": "Zoom to fit",
+          "to": "缩放以适应屏幕"
+        },
+        {
+          "from": "Zoom to selection",
+          "to": "缩放至所选内容"
+        },
+        {
+          "from": "Group selected elements",
+          "to": "编组所选元素"
+        },
+        {
+          "from": "Send backward",
+          "to": "下移一层"
+        },
+        {
+          "from": "Bring forward",
+          "to": "上移一层"
+        },
+        {
+          "from": "Send to back",
+          "to": "移到最后"
+        },
+        {
+          "from": "Bring to front",
+          "to": "移到最前"
+        },
+        {
+          "from": "Toggle pixel grid",
+          "to": "切换像素网格"
+        },
+        {
+          "from": "Toggle snap to pixel grid",
+          "to": "切换对齐像素网格"
+        },
+        {
+          "from": "Save file",
+          "to": "保存文件"
+        },
+        {
+          "from": "Create new file",
+          "to": "创建新文件"
+        },
+        {
+          "from": "Open file",
+          "to": "打开文件"
+        },
+        {
+          "from": "Detach Component",
+          "to": "解除组件"
+        },
+        {
+          "from": "Any standard design element — a frame, shape, or text — can be converted into a reusable component.",
+          "to": "任何标准设计元素（如框架、形状或文本）都可以转换为可复用的组件。"
+        },
+        {
+          "from": "Select the element",
+          "to": "选择元素"
+        },
+        {
+          "from": "or click \"Create Component\" above",
+          "to": "或点击上方的“创建组件”"
+        },
+        {
+          "from": "The element becomes your component origin, marked with a magenta bounding box. You can also create nested components for more complex structures.",
+          "to": "该元素将成为组件母版，并带有洋红色边框。您还可以创建嵌套组件以实现更复杂的结构。"
+        },
+        {
+          "from": "Components let you maintain consistency across your designs. Edit the main component once and every instance updates automatically.",
+          "to": "组件可让您的设计保持一致性。只需编辑一次主组件，所有实例都会自动更新。"
+        },
+        {
+          "from": "Copy the component origin on the canvas to create an instance. Instances are marked with a violet bounding box when selected.",
+          "to": "在画布上复制组件母版即可创建实例。选中实例时，会显示紫色边框。"
+        },
+        {
+          "from": "Import image file",
+          "to": "导入图像文件"
+        },
+        {
+          "from": "Space Between",
+          "to": "两端对齐"
+        },
+        {
+          "from": "Space Around",
+          "to": "环绕间距"
+        },
+        {
+          "from": "Padding Values",
+          "to": "内边距值"
+        },
+        {
+          "from": "One value for all sides",
+          "to": "全局数值"
+        },
+        {
+          "from": "Horizontal/Vertical",
+          "to": "横向/纵向"
+        },
+        {
+          "from": "Top/Right/Bottom/Left",
+          "to": "上/右/下/左"
+        },
+        {
+          "from": "Hug Width",
+          "to": "宽度适应内容"
+        },
+        {
+          "from": "Hug Height",
+          "to": "高度适应内容"
+        },
+        {
+          "from": "Edit corners individually",
+          "to": "单独编辑"
+        },
+        {
+          "from": "Add variable",
+          "to": "添加变量"
+        },
+        {
+          "from": "Grid Size",
+          "to": "网格大小"
+        },
+        {
+          "from": "Fill Width",
+          "to": "填充宽度"
+        },
+        {
+          "from": "Fill Height",
+          "to": "填充高度"
+        },
+        {
+          "from": "Clip Content",
+          "to": "裁剪内容"
+        },
+        {
+          "from": "Export layer",
+          "to": "导出图层"
+        },
+        {
+          "from": "Export designs to code seamlessly or design from the terminal.",
+          "to": "无缝地将设计导出为代码，或在终端中进行设计。"
+        },
+        {
+          "from": "On Pencil startup, MCP is automatically setup to selected CLI tools.",
+          "to": "在 Pencil 启动时，MCP 会自动设置到所选的 CLI 工具。"
+        },
+        {
+          "from": "Custom MCP Server Configuration",
+          "to": "自定义 MCP 服务器配置"
+        },
+        {
+          "from": "Copy MCP config",
+          "to": "复制 MCP 配置"
+        },
+        {
+          "from": "If you want to use Pencil in tools that we don't support out of the box, you can manually configure them via following config and paste it into MCP servers section, usually JSON.",
+          "to": "如果您想在非原生支持的工具中使用 Pencil，可以通过以下配置进行手动设置，并将其粘贴到 MCP 服务器部分（通常为 JSON 格式）。"
+        },
+        {
+          "from": "Design Kits",
+          "to": "设计工具包"
+        },
+        {
+          "from": "Libraries by Pencil.dev",
+          "to": "由 Pencil.dev 提供的库"
+        },
+        {
+          "from": "Turn this file into a library",
+          "to": "将此文件转换为库"
+        },
+        {
+          "from": "Toggle Design Mode",
+          "to": "切换设计模式"
+        },
+        {
+          "from": "MCP Integrations in Terminal",
+          "to": "终端中的 MCP 集成"
+        },
+        {
+          "from": "Choose a Style",
+          "to": "选择风格"
+        },
+        {
+          "from": "Set parallel agents",
+          "to": "设置并行 Agent"
+        },
+        {
+          "from": "Parallel agents",
+          "to": "并行 Agent"
+        },
+        {
+          "from": "Pick a style guide",
+          "to": "选择风格指南"
+        },
+        {
+          "from": "Attach an image or text file",
+          "to": "附加图片或文本文件"
+        },
+        {
+          "from": "Stop generation",
+          "to": "停止生成"
+        },
+        {
+          "from": "Send message",
+          "to": "发送消息"
+        },
+        {
+          "from": "Drop files here…",
+          "to": "将文件拖到这里…"
+        },
+        {
+          "from": "Design with Claude or Codex…",
+          "to": "用 Claude 或 Codex 设计…"
+        },
+        {
+          "from": "New Chat",
+          "to": "新建对话"
+        },
+        {
+          "from": "Open agent tab",
+          "to": "打开 Agent 标签页"
+        },
+        {
+          "from": "New conversation",
+          "to": "新建会话"
+        },
+        {
+          "from": "Agent Log History",
+          "to": "Agent 日志历史"
+        },
+        {
+          "from": "Show pixel grid",
+          "to": "显示像素网格"
+        },
+        {
+          "from": "Snap to pixel grid",
+          "to": "吸附到像素网格"
+        },
+        {
+          "from": "Snap to objects",
+          "to": "吸附到对象"
+        },
+        {
+          "from": "Use scroll wheel to zoom",
+          "to": "使用滚轮缩放"
+        },
+        {
+          "from": "Invert zoom direction",
+          "to": "反转缩放方向"
+        },
+        {
+          "from": "Hide sidebar when Layers are open",
+          "to": "打开图层时隐藏侧边栏"
+        },
+        {
+          "from": "Animations & effects (turn off to save GPU/CPU)",
+          "to": "动画与效果（关闭可节省 GPU/CPU）"
+        },
+        {
+          "from": "Window vibrancy / transparency",
+          "to": "窗口毛玻璃/透明度"
+        },
+        {
+          "from": "Sign in to Pencil",
+          "to": "登录 Pencil"
+        },
+        {
+          "from": "Enter Verification Code",
+          "to": "输入验证码"
+        },
+        {
+          "from": "Complete Your Profile",
+          "to": "完善个人资料"
+        },
+        {
+          "from": "Skip for now",
+          "to": "暂时跳过"
+        },
+        {
+          "from": "Please enter your email address",
+          "to": "请输入邮箱地址"
+        },
+        {
+          "from": "Failed to send code. Please try again.",
+          "to": "验证码发送失败，请重试。"
+        },
+        {
+          "from": "Failed to resend code. Please try again.",
+          "to": "验证码重新发送失败，请重试。"
+        },
+        {
+          "from": "Please enter the activation code",
+          "to": "请输入激活码"
+        },
+        {
+          "from": "Failed to verify code. Please try again.",
+          "to": "验证码校验失败，请重试。"
+        },
+        {
+          "from": "Please enter your password",
+          "to": "请输入密码"
+        },
+        {
+          "from": "Failed to sign in. Please try again.",
+          "to": "登录失败，请重试。"
+        },
+        {
+          "from": "Password is required",
+          "to": "请输入密码"
+        },
+        {
+          "from": "Username is required",
+          "to": "请输入用户名"
+        },
+        {
+          "from": "Display name is required",
+          "to": "请输入显示名称"
+        },
+        {
+          "from": "Sign Out",
+          "to": "退出登录"
+        },
+        {
+          "from": "User profile",
+          "to": "用户资料"
+        },
+        {
+          "from": "Please complete your profile to continue using Pencil",
+          "to": "请完善个人资料以继续使用 Pencil"
+        },
+        {
+          "from": "New .pen file",
+          "to": "新建 .pen 文件"
+        },
+        {
+          "from": "Welcome File",
+          "to": "欢迎文件"
+        },
+        {
+          "from": "Demo File",
+          "to": "演示文件"
+        },
+        {
+          "from": "Choose Design System Components",
+          "to": "选择设计系统组件"
+        },
+        {
+          "from": "Search components...",
+          "to": "搜索组件..."
+        },
+        {
+          "from": "Select a frame, shape, or text element to create a component",
+          "to": "选择画框、形状或文本元素来创建组件"
+        },
+        {
+          "from": "Create Component",
+          "to": "创建组件"
+        },
+        {
+          "from": "Select an element to create a component.",
+          "to": "选择一个元素来创建组件。"
+        },
+        {
+          "from": "No components created yet.",
+          "to": "还没有创建组件。"
+        },
+        {
+          "from": "Tip: Why Use Components",
+          "to": "提示：为什么使用组件"
+        },
+        {
+          "from": "Components serve as the foundation for building design systems.",
+          "to": "组件是构建设计系统的基础。"
+        },
+        {
+          "from": "Creating Components",
+          "to": "创建组件"
+        },
+        {
+          "from": "Using Components",
+          "to": "使用组件"
+        },
+        {
+          "from": "Variables Panel",
+          "to": "变量面板"
+        },
+        {
+          "from": "Failed to load layer list.",
+          "to": "图层列表加载失败。"
+        },
+        {
+          "from": "Empty canvas. Draw something.",
+          "to": "画布为空。画点内容吧。"
+        },
+        {
+          "from": "Failed to load Slides.",
+          "to": "幻灯片加载失败。"
+        },
+        {
+          "from": "No frames yet.",
+          "to": "还没有画框。"
+        },
+        {
+          "from": "Export PDF",
+          "to": "导出 PDF"
+        },
+        {
+          "from": "Export all slides",
+          "to": "导出所有幻灯片"
+        },
+        {
+          "from": "Imported Libraries",
+          "to": "已导入库"
+        },
+        {
+          "from": "No imported libraries",
+          "to": "没有已导入的库"
+        },
+        {
+          "from": "Failed to find libraries",
+          "to": "查找库失败"
+        },
+        {
+          "from": "Already imported",
+          "to": "已导入"
+        },
+        {
+          "from": "The selected library is already imported!",
+          "to": "所选库已经导入！"
+        },
+        {
+          "from": "Not a library",
+          "to": "不是库文件"
+        },
+        {
+          "from": "The selected file is not a Pencil library!",
+          "to": "所选文件不是 Pencil 库！"
+        },
+        {
+          "from": "Object Details",
+          "to": "对象详情"
+        },
+        {
+          "from": "-- Select Object Size --",
+          "to": "-- 选择对象尺寸 --"
+        },
+        {
+          "from": "-- Select Object Position --",
+          "to": "-- 选择对象位置 --"
+        },
+        {
+          "from": "-- Select Object Material --",
+          "to": "-- 选择对象材质 --"
+        },
+        {
+          "from": "Generating image with options (client-side):",
+          "to": "正在使用选项生成图像（客户端）："
+        },
+        {
+          "from": "Error generating image (client-side):",
+          "to": "图像生成出错（客户端）："
+        },
+        {
+          "from": "Fixed size",
+          "to": "固定尺寸"
+        },
+        {
+          "from": "Flex Layout",
+          "to": "弹性布局"
+        },
+        {
+          "from": "Padding settings",
+          "to": "内边距设置"
+        },
+        {
+          "from": "Make slot",
+          "to": "设为插槽"
+        },
+        {
+          "from": "Go to component",
+          "to": "跳转到组件"
+        },
+        {
+          "from": "Detach instance",
+          "to": "分离实例"
+        },
+        {
+          "from": "Detach component instance",
+          "to": "分离组件实例"
+        },
+        {
+          "from": "Detach component",
+          "to": "分离组件"
+        },
+        {
+          "from": "Create component",
+          "to": "创建组件"
+        },
+        {
+          "from": "Context information",
+          "to": "上下文信息"
+        },
+        {
+          "from": "Drop Shadow",
+          "to": "投影"
+        },
+        {
+          "from": "Layer Blur",
+          "to": "图层模糊"
+        },
+        {
+          "from": "Background Blur",
+          "to": "背景模糊"
+        },
+        {
+          "from": "Mixed effects",
+          "to": "混合效果"
+        },
+        {
+          "from": "Mixed fills",
+          "to": "混合填充"
+        },
+        {
+          "from": "Line height",
+          "to": "行高"
+        },
+        {
+          "from": "Letter spacing",
+          "to": "字距"
+        },
+        {
+          "from": "Custom Fonts",
+          "to": "自定义字体"
+        },
+        {
+          "from": "Fonts added here are only available in this document.",
+          "to": "这里添加的字体仅在当前文档中可用。"
+        },
+        {
+          "from": "Import custom fonts in .ttf, .otf, .woff, or .woff2 format.",
+          "to": "导入 .ttf、.otf、.woff 或 .woff2 格式的自定义字体。"
+        },
+        {
+          "from": "Import font file",
+          "to": "导入字体文件"
+        },
+        {
+          "from": "Add new font",
+          "to": "添加新字体"
+        },
+        {
+          "from": "Keyboard Shortcuts",
+          "to": "键盘快捷键"
+        },
+        {
+          "from": "AI Chat",
+          "to": "AI 对话"
+        },
+        {
+          "from": "Frame tool",
+          "to": "画框工具"
+        },
+        {
+          "from": "Move selection by 1px (⇧ for 10px)",
+          "to": "移动所选对象 1px（⇧ 为 10px）"
+        },
+        {
+          "from": "Canvas Navigation",
+          "to": "画布导航"
+        },
+        {
+          "from": "Canvas Settings",
+          "to": "画布设置"
+        },
+        {
+          "from": "Icon Font",
+          "to": "图标字体"
+        },
+        {
+          "from": "Import Image or SVG…",
+          "to": "导入图片或 SVG…"
+        },
+        {
+          "from": "Sticky Note",
+          "to": "便签"
+        },
+        {
+          "from": "How to import from Figma",
+          "to": "如何从 Figma 导入"
+        },
+        {
+          "from": "Import Figma",
+          "to": "导入 Figma"
+        },
+        {
+          "from": "Snapshot created",
+          "to": "快照已创建"
+        },
+        {
+          "from": "Snapshot creation failed",
+          "to": "快照创建失败"
+        },
+        {
+          "from": "Failed to gather snapshot dependencies.",
+          "to": "收集快照依赖失败。"
+        },
+        {
+          "from": "Name copied to clipboard",
+          "to": "名称已复制到剪贴板"
+        },
+        {
+          "from": "Style guide copied to clipboard. Paste it into the agent chat.",
+          "to": "风格指南已复制到剪贴板。请粘贴到 Agent 对话中。"
+        },
+        {
+          "from": "Failed to copy to clipboard",
+          "to": "复制到剪贴板失败"
+        },
+        {
+          "from": "Switching provider will lose conversation context",
+          "to": "切换提供商会丢失会话上下文"
+        },
+        {
+          "from": "Connecting…",
+          "to": "正在连接…"
+        },
+        {
+          "from": "Reasoning effort",
+          "to": "推理强度"
+        },
+        {
+          "from": "Very high",
+          "to": "非常高"
+        },
+        {
+          "from": "Let it cook",
+          "to": "让它多想一会"
+        },
+        {
+          "from": "Style iteration",
+          "to": "风格迭代"
+        },
+        {
+          "from": "Layout iteration",
+          "to": "布局迭代"
+        },
+        {
+          "from": "Attach file",
+          "to": "附加文件"
+        },
+        {
+          "from": "Failed to load image",
+          "to": "图片加载失败"
+        },
+        {
+          "from": "Failed to read file",
+          "to": "读取文件失败"
+        },
+        {
+          "from": "Failed to read file as text",
+          "to": "按文本读取文件失败"
+        },
+        {
+          "from": "Set Repository",
+          "to": "设置仓库"
+        },
+        {
+          "from": "Switch to Light Mode",
+          "to": "切换到浅色模式"
+        },
+        {
+          "from": "Switch to Dark Mode",
+          "to": "切换到深色模式"
+        },
+        {
+          "from": "Apply variable",
+          "to": "应用变量"
+        },
+        {
+          "from": "Search variables...",
+          "to": "搜索变量..."
+        },
+        {
+          "from": "Pick color from screen",
+          "to": "从屏幕取色"
+        },
+        {
+          "from": "EyeDropper API not supported in this browser",
+          "to": "当前浏览器不支持取色器 API"
+        },
+        {
+          "from": "Agent Names",
+          "to": "Agent 名称"
+        },
+        {
+          "from": "Copied MCP config to clipboard",
+          "to": "MCP 配置已复制到剪贴板"
+        },
+        {
+          "from": "Set model ID and additional variables in",
+          "to": "在此设置模型 ID 和额外变量："
+        },
+        {
+          "from": "You can set additional variables in",
+          "to": "你可以在此设置额外变量："
+        },
+        {
+          "from": "Install natively, not in WSL on Windows.",
+          "to": "请原生安装，不要安装在 Windows 的 WSL 中。"
+        },
+        {
+          "from": "Swap elements order in flex layout",
+          "to": "交换弹性布局中的元素顺序"
+        },
+        {
+          "from": "Apply flex layout to a selection",
+          "to": "为所选对象应用弹性布局"
+        },
+        {
+          "from": "Direct select",
+          "to": "直接选择"
+        },
+        {
+          "from": "Add to selection",
+          "to": "添加到选择"
+        },
+        {
+          "from": "Clear selection",
+          "to": "清除选择"
+        },
+        {
+          "from": "Convert element to a Component",
+          "to": "将元素转换为组件"
+        },
+        {
+          "from": "Pan canvas",
+          "to": "平移画布视角"
+        },
+        {
+          "from": "Horizontal pan",
+          "to": "水平平移"
+        },
+        {
+          "from": "File Operations",
+          "to": "文件操作"
+        },
+        {
+          "from": "Fetching image with options (client-side):",
+          "to": "正在使用选项获取图像（客户端）："
+        },
+        {
+          "from": "Image generated (client-side):",
+          "to": "图像已生成（客户端）："
+        },
+        {
+          "from": "Image URL not found in API response.",
+          "to": "API 响应中未找到图片 URL。"
+        },
+        {
+          "from": "-- Select Surface Texture --",
+          "to": "-- 选择表面纹理 --"
+        },
+        {
+          "from": "-- Select Primary Color --",
+          "to": "-- 选择主色 --"
+        },
+        {
+          "from": "-- Select Secondary Color --",
+          "to": "-- 选择辅色 --"
+        },
+        {
+          "from": "-- Select Highlight Style --",
+          "to": "-- 选择高光样式 --"
+        },
+        {
+          "from": "-- Select Rim Light Style --",
+          "to": "-- 选择轮廓光样式 --"
+        },
+        {
+          "from": "-- Select Elements --",
+          "to": "-- 选择元素 --"
+        },
+        {
+          "from": "-- Select Material --",
+          "to": "-- 选择材质 --"
+        },
+        {
+          "from": "-- Select Scale --",
+          "to": "-- 选择比例 --"
+        },
+        {
+          "from": "-- Select Layout --",
+          "to": "-- 选择布局 --"
+        },
+        {
+          "from": "-- Select Color --",
+          "to": "-- 选择颜色 --"
+        },
+        {
+          "from": "-- Select Texture --",
+          "to": "-- 选择纹理 --"
+        },
+        {
+          "from": "-- Select Type --",
+          "to": "-- 选择类型 --"
+        },
+        {
+          "from": "-- Select Intensity --",
+          "to": "-- 选择强度 --"
+        },
+        {
+          "from": "-- Select Direction --",
+          "to": "-- 选择方向 --"
+        },
+        {
+          "from": "-- Select Accent Colors --",
+          "to": "-- 选择强调色 --"
+        },
+        {
+          "from": "-- Select Reflections --",
+          "to": "-- 选择反射 --"
+        },
+        {
+          "from": "-- Select Refractions --",
+          "to": "-- 选择折射 --"
+        },
+        {
+          "from": "Post Processing",
+          "to": "后期处理"
+        },
+        {
+          "from": "-- Select Angle --",
+          "to": "-- 选择角度 --"
+        },
+        {
+          "from": "-- Select Focus --",
+          "to": "-- 选择焦点 --"
+        },
+        {
+          "from": "-- Select Depth of Field --",
+          "to": "-- 选择景深 --"
+        },
+        {
+          "from": "Enter your main prompt...",
+          "to": "输入主要提示词..."
+        },
+        {
+          "from": "-- Select Style --",
+          "to": "-- 选择风格 --"
+        },
+        {
+          "from": "-- Select Scene Type --",
+          "to": "-- 选择场景类型 --"
+        },
+        {
+          "from": "-- Select Aspect Ratio --",
+          "to": "-- 选择宽高比 --"
+        },
+        {
+          "from": "Describe what to avoid...",
+          "to": "描述需要避免的内容..."
+        },
+        {
+          "from": "Enter a seed (optional)",
+          "to": "输入种子（可选）"
+        },
+        {
+          "from": "Generate Image",
+          "to": "生成图像"
+        },
+        {
+          "from": "The selected file wasn",
+          "to": "所选文件未能"
+        },
+        {
+          "from": "Auto width",
+          "to": "自动宽度"
+        },
+        {
+          "from": "Auto height",
+          "to": "自动高度"
+        },
+        {
+          "from": "Absolute position",
+          "to": "绝对定位"
+        },
+        {
+          "from": "Auto position",
+          "to": "自动定位"
+        },
+        {
+          "from": "Align Left",
+          "to": "左对齐"
+        },
+        {
+          "from": "Align Center",
+          "to": "水平居中"
+        },
+        {
+          "from": "Align Right",
+          "to": "右对齐"
+        },
+        {
+          "from": "Align Top",
+          "to": "顶部对齐"
+        },
+        {
+          "from": "Align Middle",
+          "to": "垂直居中"
+        },
+        {
+          "from": "Align Bottom",
+          "to": "底部对齐"
+        },
+        {
+          "from": "Shuffle Selected Colors",
+          "to": "随机所选颜色"
+        },
+        {
+          "from": "Shuffle Colors",
+          "to": "随机颜色"
+        },
+        {
+          "from": "Image path or URL",
+          "to": "图片路径或 URL"
+        },
+        {
+          "from": "Search icons...",
+          "to": "搜索图标..."
+        },
+        {
+          "from": "Select icon...",
+          "to": "选择图标..."
+        },
+        {
+          "from": "Auto layout active",
+          "to": "自动布局已启用"
+        },
+        {
+          "from": "Enable auto layout",
+          "to": "启用自动布局"
+        },
+        {
+          "from": "Remove slot",
+          "to": "移除插槽"
+        },
+        {
+          "from": "Must be a frame.",
+          "to": "必须是画框。"
+        },
+        {
+          "from": "Could not load file",
+          "to": "无法加载文件"
+        },
+        {
+          "from": "File is not a valid font",
+          "to": "文件不是有效字体"
+        },
+        {
+          "from": "Failed to import font file",
+          "to": "导入字体文件失败"
+        },
+        {
+          "from": "Font file path (.ttf, .otf, .woff, .woff2)",
+          "to": "字体文件路径（.ttf、.otf、.woff、.woff2）"
+        },
+        {
+          "from": "Search fonts...",
+          "to": "搜索字体..."
+        },
+        {
+          "from": "Zoom Out",
+          "to": "缩小"
+        },
+        {
+          "from": "Zoom In",
+          "to": "放大"
+        },
+        {
+          "from": "Stop Presenting",
+          "to": "停止演示"
+        },
+        {
+          "from": "Update Available",
+          "to": "有可用更新"
+        },
+        {
+          "from": "Downloading new version…",
+          "to": "正在下载新版本…"
+        },
+        {
+          "from": "Nothing selected to export",
+          "to": "没有选择可导出的内容"
+        },
+        {
+          "from": "Export failed",
+          "to": "导出失败"
+        },
+        {
+          "from": "No session credentials available",
+          "to": "没有可用的会话凭据"
+        },
+        {
+          "from": "Processing session...",
+          "to": "正在处理会话..."
+        },
+        {
+          "from": "No session found, login needed",
+          "to": "未找到会话，需要登录"
+        },
+        {
+          "from": "Failed to fetch session info",
+          "to": "获取会话信息失败"
+        },
+        {
+          "from": "Loading design file:",
+          "to": "正在加载设计文件："
+        },
+        {
+          "from": "Reviewed visuals",
+          "to": "已检查视觉"
+        },
+        {
+          "from": "Reviewing visuals…",
+          "to": "正在检查视觉…"
+        },
+        {
+          "from": "Read objects",
+          "to": "已读取对象"
+        },
+        {
+          "from": "Reading objects…",
+          "to": "正在读取对象…"
+        },
+        {
+          "from": "Got editor state",
+          "to": "已获取编辑器状态"
+        },
+        {
+          "from": "Getting editor state…",
+          "to": "正在获取编辑器状态…"
+        },
+        {
+          "from": "Opened document",
+          "to": "已打开文档"
+        },
+        {
+          "from": "Opening document…",
+          "to": "正在打开文档…"
+        },
+        {
+          "from": "Checked guidelines",
+          "to": "已检查指南"
+        },
+        {
+          "from": "Checking guidelines…",
+          "to": "正在检查指南…"
+        },
+        {
+          "from": "Checked the layout",
+          "to": "已检查布局"
+        },
+        {
+          "from": "Checking the layout…",
+          "to": "正在检查布局…"
+        },
+        {
+          "from": "Read variables",
+          "to": "已读取变量"
+        },
+        {
+          "from": "Reading variables…",
+          "to": "正在读取变量…"
+        },
+        {
+          "from": "Set variables",
+          "to": "已设置变量"
+        },
+        {
+          "from": "Setting variables…",
+          "to": "正在设置变量…"
+        },
+        {
+          "from": "Found space",
+          "to": "已找到空间"
+        },
+        {
+          "from": "Looking for space…",
+          "to": "正在寻找空间…"
+        },
+        {
+          "from": "Searched properties",
+          "to": "已搜索属性"
+        },
+        {
+          "from": "Searching properties…",
+          "to": "正在搜索属性…"
+        },
+        {
+          "from": "Replaced properties",
+          "to": "已替换属性"
+        },
+        {
+          "from": "Replacing properties…",
+          "to": "正在替换属性…"
+        },
+        {
+          "from": "Started agents",
+          "to": "已启动 Agent"
+        },
+        {
+          "from": "Starting agents…",
+          "to": "正在启动 Agent…"
+        },
+        {
+          "from": "Authentication failed — check your subscription or API key.",
+          "to": "认证失败，请检查订阅或 API key。"
+        },
+        {
+          "from": "Set up your account to get started with Pencil.",
+          "to": "设置账号以开始使用 Pencil。"
+        },
+        {
+          "from": "Enter your password",
+          "to": "输入密码"
+        },
+        {
+          "from": "Your Name",
+          "to": "你的姓名"
+        },
+        {
+          "from": "Unique, URL-friendly username",
+          "to": "唯一的、适合作为 URL 的用户名"
+        },
+        {
+          "from": "Create a password",
+          "to": "创建密码"
+        },
+        {
+          "from": "Send Code",
+          "to": "发送验证码"
+        },
+        {
+          "from": "Sign In",
+          "to": "登录"
+        },
+        {
+          "from": "Save & Continue",
+          "to": "保存并继续"
+        }
+      ]
+    }
+  ]
+}
