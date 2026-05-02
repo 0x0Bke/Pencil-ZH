@@ -1,7 +1,7 @@
 {
   "name": "pencil-zh-patch",
-  "displayName": "Pencil 中文补丁管理器",
-  "description": "手动为 Pencil VS Code 扩展的 editor bundle 应用中文汉化补丁。",
+  "displayName": "Pencil 中文插件",
+  "description": "Pencil-ZH 是一款专为 VSCode 扩展 Pencil 打造的中文翻译插件，一键将 Pencil 工具相关界面、功能提示汉化，适配各类设计场景，操作简洁，助力快速上手使用。",
   "version": "0.1.0",
   "publisher": "local",
   "private": true,
@@ -14,8 +14,7 @@
   ],
   "activationEvents": [
     "onCommand:pencilZhPatch.apply",
-    "onCommand:pencilZhPatch.restore",
-    "onCommand:pencilZhPatch.status"
+    "onCommand:pencilZhPatch.restore"
   ],
   "main": "./extension.js",
   "contributes": {
@@ -27,18 +26,14 @@
       {
         "command": "pencilZhPatch.restore",
         "title": "Pencil 中文汉化：恢复原版"
-      },
-      {
-        "command": "pencilZhPatch.status",
-        "title": "Pencil 中文汉化：检查状态"
       }
     ]
   },
   "scripts": {
     "test": "node test/patcher.test.js",
-    "check": "node --check extension.js && node --check lib/patcher.js && node --check scripts/refresh-hash.js && node test/patch-file.test.js",
-    "refresh-hash": "node scripts/refresh-hash.js",
-    "refresh-hash:check": "node scripts/refresh-hash.js --check",
+    "check": "node --check extension.js && node --check lib/patcher.js && node --check scripts/prepare-patch.js && node test/patch-file.test.js",
+    "prepare-patch": "node scripts/prepare-patch.js",
+    "prepare-patch:check": "node scripts/prepare-patch.js --check",
     "scan-term": "node scripts/scan-term.js"
   },
   "devDependencies": {}

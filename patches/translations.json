@@ -1,7 +1,4 @@
 {
-  "id": "pencil-0.6.48-editor-0.1.81-zh-cn-v1",
-  "pencilExtensionVersion": "0.6.48",
-  "editorVersion": "0.1.81",
   "domReplacements": [
     {
       "from": "Context",
@@ -299,7 +296,6 @@
   "files": [
     {
       "relativePath": "editor/assets/index.js",
-      "originalSha256": "825a5ac1be83dddd620b1738f35fb69a9eb93b81bea80018b97f7bdb92f76d39",
       "replacements": [
         {
           "from": "Export selected slides",

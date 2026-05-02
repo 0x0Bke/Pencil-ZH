@@ -10,21 +10,20 @@ const {
   getPatchStatus,
   injectDomTranslator,
   loadPatches,
-  replaceAllStrict,
+  mergePatches,
+  replaceAllAvailable,
   removeDomTranslator,
   restorePatch,
   selectPatch,
-  sha256,
 } = require("../lib/patcher");
 
 async function main() {
-  assert.equal(
-    replaceAllStrict("Hello World!", [{ from: "World", to: "世界" }], "x"),
-    "Hello 世界!",
-  );
-  assert.throws(
-    () => replaceAllStrict("Hello World", [{ from: "Missing phrase", to: "缺失短语" }], "x"),
-    /补丁字符串未命中/,
+  assert.deepEqual(
+    replaceAllAvailable("Hello World", [
+      { from: "World", to: "世界" },
+      { from: "Missing phrase", to: "缺失短语" },
+    ]),
+    { content: "Hello 世界", replacementCount: 1 },
   );
   const html = "<html><body><div id=\"root\"></div></body></html>";
   const injected = injectDomTranslator(html, [{ from: "Frame", to: "画框" }]);
@@ -32,13 +31,8 @@ async function main() {
   assert.match(injected, /"Frame":"画框"/);
   assert.equal(removeDomTranslator(injected).replace(/\n/g, ""), html);
   const availablePatches = loadPatches(path.join(__dirname, "..", "patches"));
-  assert.equal(
-    selectPatch(availablePatches, {
-      pencilExtensionVersion: "0.6.48",
-      editorVersion: "0.1.81",
-    }).id,
-    "pencil-0.6.48-editor-0.1.81-zh-cn-v1",
-  );
+  assert.equal(selectPatch(availablePatches, {}).id, "pencil-zh-text-replacements");
+  assert.equal(mergePatches(availablePatches).id, "pencil-zh-text-replacements");
 
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), "pencil-zh-patch-"));
   const targetRelativePath = "editor/assets/index.js";
@@ -50,16 +44,13 @@ async function main() {
   fs.writeFileSync(targetPath, original, "utf8");
 
   const patch = {
-    id: "test-patch",
-    pencilExtensionVersion: "0.6.47",
-    editorVersion: "0.1.79",
     files: [
       {
         relativePath: targetRelativePath,
-        originalSha256: sha256(Buffer.from(original, "utf8")),
         replacements: [
           { from: "Sign in to Pencil", to: "登录 Pencil" },
           { from: "Export PDF", to: "导出 PDF" },
+          { from: "Only exists in another Pencil version", to: "只存在于另一个 Pencil 版本" },
         ],
       },
     ],
@@ -84,18 +75,29 @@ async function main() {
   const repeated = await applyPatch(env, patch);
   assert.equal(repeated.alreadyPatched, true);
 
-  status = await getPatchStatus(env, {
+  const updatedPatch = {
     ...patch,
     files: [
       {
         ...patch.files[0],
-        patchedSha256: sha256(Buffer.from(fs.readFileSync(targetPath), "utf8")),
+        replacements: [
+          { from: "Sign in to Pencil", to: "登入 Pencil" },
+          { from: "Export PDF", to: "导出 PDF" },
+        ],
       },
     ],
+  };
+  const reapplied = await applyPatch(env, updatedPatch);
+  assert.equal(reapplied.alreadyPatched, false);
+  assert.match(fs.readFileSync(targetPath, "utf8"), /登入 Pencil/);
+  assert.doesNotMatch(fs.readFileSync(targetPath, "utf8"), /登录 Pencil/);
+
+  status = await getPatchStatus(env, {
+    ...updatedPatch,
   });
   assert.equal(status.patched, true);
 
-  const restored = await restorePatch(env, patch);
+  const restored = await restorePatch(env, updatedPatch);
   assert.equal(restored.files.length, 2);
   assert.equal(fs.readFileSync(targetPath, "utf8"), original);
   assert.doesNotMatch(fs.readFileSync(htmlPath, "utf8"), /pencil-zh-dom-translator/);

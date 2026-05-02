@@ -5,7 +5,6 @@ const path = require("node:path");
 const vscode = require("vscode");
 const {
   applyPatch,
-  getPatchStatus,
   loadPatches,
   restorePatch,
   selectPatch,
@@ -54,13 +53,6 @@ function activate(context) {
         }
       });
     }),
-    vscode.commands.registerCommand("pencilZhPatch.status", async () => {
-      await runCommand(context, patchesDir, async (env, patch) => {
-        const status = await getPatchStatus(env, patch);
-        const lastApplied = context.globalState.get(STATE_KEY);
-        await showStatusDocument(status, lastApplied);
-      });
-    }),
   );
 }
 
@@ -86,55 +78,21 @@ function resolvePencilEnvironment(context) {
   const globalStorageRoot = path.dirname(context.globalStorageUri.fsPath);
   const pencilStoragePath = path.join(globalStorageRoot, PENCIL_EXTENSION_ID);
   const versionPath = path.join(pencilStoragePath, "current-version.json");
-  if (!fs.existsSync(versionPath)) {
-    throw new Error(`未找到 Pencil editor 版本文件：${versionPath}`);
-  }
 
-  let versionInfo;
-  try {
-    versionInfo = JSON.parse(fs.readFileSync(versionPath, "utf8"));
-  } catch (error) {
-    throw new Error(`无法读取 Pencil editor 版本文件：${error.message}`);
+  let editorVersion = "unknown";
+  if (fs.existsSync(versionPath)) {
+    try {
+      editorVersion = JSON.parse(fs.readFileSync(versionPath, "utf8")).version || "unknown";
+    } catch (error) {
+      throw new Error(`无法读取 Pencil editor 版本文件：${error.message}`);
+    }
   }
 
   return {
     pencilExtensionVersion: pencilExtension.packageJSON.version,
-    editorVersion: versionInfo.version,
+    editorVersion,
     pencilStoragePath,
   };
-}
-
-async function showStatusDocument(status, lastApplied) {
-  const lines = [
-    "# Pencil 中文补丁状态",
-    "",
-    `- Pencil 扩展版本：${status.pencilExtensionVersion}`,
-    `- Pencil editor 版本：${status.editorVersion}`,
-    `- 支持当前版本：${status.supported ? "是" : "否"}`,
-    `- 当前状态：${status.stateLabel}`,
-    `- 备份目录：${status.backupDir}`,
-    "",
-    "## 文件",
-    "",
-    "| 文件 | 当前 SHA-256 | 状态 |",
-    "| --- | --- | --- |",
-    ...status.files.map(
-      (file) =>
-        `| \`${file.relativePath}\` | \`${file.currentSha256}\` | ${file.stateLabel} |`,
-    ),
-    "",
-    "## 最近一次应用记录",
-    "",
-    lastApplied
-      ? `\`\`\`json\n${JSON.stringify(lastApplied, null, 2)}\n\`\`\``
-      : "暂无记录。",
-  ];
-
-  const doc = await vscode.workspace.openTextDocument({
-    language: "markdown",
-    content: lines.join("\n"),
-  });
-  await vscode.window.showTextDocument(doc, { preview: true });
 }
 
 module.exports = {

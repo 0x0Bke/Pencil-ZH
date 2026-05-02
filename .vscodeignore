@@ -1,4 +1,7 @@
 .git/**
+.gitignore
 node_modules/**
 test/**
+scripts/**
+.vscode/**
 *.vsix
