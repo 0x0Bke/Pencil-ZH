@@ -1,11 +1,14 @@
 {
   "name": "pencil-zh-patch",
-  "displayName": "Pencil 中文插件",
+  "displayName": "Pencil 汉化插件",
   "description": "Pencil-ZH 是一款专为 VSCode 扩展 Pencil 打造的中文翻译插件，一键将 Pencil 工具相关界面、功能提示汉化，适配各类设计场景，操作简洁，助力快速上手使用。",
   "version": "0.1.0",
-  "publisher": "local",
-  "private": true,
-  "license": "UNLICENSED",
+  "publisher": "0x0Bke",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x0Bke/Pencil-ZH.git"
+  },
   "engines": {
     "vscode": "^1.100.0"
   },
@@ -17,6 +20,7 @@
     "onCommand:pencilZhPatch.restore"
   ],
   "main": "./extension.js",
+  "icon": "images/icon.png",
   "contributes": {
     "commands": [
       {
